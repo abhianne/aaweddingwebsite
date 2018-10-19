@@ -134,6 +134,14 @@
 					$message.classList.remove('visible');
 				};
 
+			//formspree
+				$.ajax({
+				    method: 'POST',
+				    url: '//formspree.io/abhisheksisodia13@gmail.com',
+				    data: $('#signup-form').serialize(),
+				    datatype: 'json'
+				 });
+
 			// Events.
 			// Note: If you're *not* using AJAX, get rid of this event listener.
 				$form.addEventListener('submit', function(event) {
