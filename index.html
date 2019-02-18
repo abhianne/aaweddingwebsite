@@ -933,64 +933,11 @@
 						Sed turpis massa, scelerisque vel diam non.</p>
 				</div>
 			</div>
-			<div class="row">
-				<div class="form-success col-md-12 text-center">
-					<h2 class=" section-heading mt-0 mb-04"><span class="custom-color">Thank</span> You!</h2>
-				</div>
-				<div class="form-error col-md-12 text-center">
-					<h2 class=" section-heading mt-0 mb-04"><span class="custom-color">O</span>oops!</h2>
-					<p>Something wrong. Please refresh your browser and try again!</p>
-				</div>
-			</div>
-			<div class="col-md-10 offset-md-1 text-left">
-				<form id="rsvp_form" method="POST" action="sender.php">
-					<div class="row">
-						<div class="form-group col-md-6">
-							<label for="name">Name</label>
-							<input type="text" class="form-control" id="name" name="name" required />
-						</div>
-						<div class="form-group col-md-6">
-							<label for="email">Email</label>
-							<input type="email" class="form-control" id="email" name="email" required />
-						</div>
-					</div>
-					<div class="row">
-						<div class="form-group col-md-6">
-							<label for="guest">Number Of Guests</label>
-							<select id="guest" class="form-control" name="guest" required>
-								<option value="">Please Choose</option>
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
-								<option value="5">5</option>
-							</select>
-						</div>
-						<div class="form-group col-md-6">
-							<label for="attend">Attending The Events</label>
-							<select id="attend" class="form-control" name="attend" required>
-								<option value="">Please Choose</option>
-								<option value="event_1 ">Event 1</option>
-								<option value="event_2">Event 2</option>
-								<option value="event_3">Event 3</option>
-								<option value="event_all">All Event</option>
-							</select>
-						</div>
-					</div>
-					<div class="row">
-						<div class="form-group col-md-12 margin-b-2">
-							<label for="message">Message</label>
-							<textarea class="form-control" id="message" rows="5" name="message"></textarea>
-						</div>
-					</div>
-					<div class="row">
-						<div class="form-group col-md-12 text-center">
-							<button type="submit" class="button-medium btn btn-default fill-btn">I am attending
-								<img class="loader" src="img/Loader_to_form_white.gif" alt="" />
-							</button>
-						</div>
-					</div>
-				</form>
+			<div class="form-group col-md-12 text-center">
+				<button type="submit" class="button-medium btn btn-default fill-btn" onclick="window.location.href = 'https://abhishekanne.rsvpify.com';">RSVP
+					Here
+					<img class="loader" src="img/Loader_to_form_white.gif" alt="" />
+				</button>
 			</div>
 		</div>
 		<div class="img-overlay"></div>
