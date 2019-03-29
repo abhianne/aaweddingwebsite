@@ -205,7 +205,7 @@ $(document).ready(function () {
 		var $grid = $('.grid').isotope({
 			itemSelector: '.grid-item',
 			percentPosition: false,
-			filter: '.proposal',
+			filter: '.eshoot',
 			masonry: {
 				// use outer width of grid-sizer for columnWidth
 				columnWidth: '.grid-item'
