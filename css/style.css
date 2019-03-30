@@ -229,6 +229,7 @@ body{
 	height: 100%;
 	font-size: 16px;
 	line-height: 26px;
+	overflow-x: hidden;
 }
 section, .section{
 	padding: 4rem 0;
