@@ -56,10 +56,7 @@ $(document).ready(function () {
 			slides: [
 				{ src: "./img/slider/slider_1.jpg" },
 				{ src: "./img/slider/slider_2.jpg" },
-				{ src: "./img/slider/slider_3.jpg" },
-				{ src: "./img/slider/slider_4.jpg" },
-				{ src: "./img/slider/slider_5.jpg" },
-				{ src: "./img/slider/slider_6.jpg" }
+				{ src: "./img/slider/slider_3.jpg" }
 			]
 		});
 	}
