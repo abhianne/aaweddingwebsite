@@ -46,7 +46,7 @@ $(document).ready(function () {
 
 	if ($("#slider").length) {
 		$("#slider").vegas({
-			delay: 7000,
+			delay: 4000,
 			timer: true,
 			shuffle: true,
 			firstTransition: 'fade2',
