@@ -20,7 +20,7 @@ $(document).ready(function () {
 
 	if ($("[data-aos]").length) {
 		AOS.init({
-			disable: 'phone'
+			disable: 'mobile'
 		});
 	}
 
