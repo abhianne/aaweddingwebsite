@@ -19,7 +19,9 @@ $(document).ready(function () {
 	-----------------------------------------------------------------------------------*/
 
 	if ($("[data-aos]").length) {
-		AOS.init();
+		AOS.init({
+			disable: 'mobile'
+		});
 	}
 
 	/* Video Player
