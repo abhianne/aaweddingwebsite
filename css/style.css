@@ -224,16 +224,20 @@ button i {
 /* 3 Typography
 ==================================================== */
 
+body{
+	overflow-x: hidden;
+}
 html,
 body{
 	height: 100%;
 	font-size: 16px;
-	line-height: 26px;
+	line-height: 26px;	
 }
 section, .section{
 	padding: 4rem 0;
 	position: relative;
 	background: #fff;
+	overflow-x: hidden;
 }
 section #portfolio{
 	padding-top: 6.125rem;
